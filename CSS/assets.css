@@ -1,0 +1,100 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0%;
+    font-family: "Lato";
+    background-color: #1f1f1f;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #bb3333;
+    width: 100%;
+    align-items: center;
+    opacity: 0.6;
+}
+nav:hover{
+    opacity: 1;
+
+}
+.logo{
+    padding-inline-start: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.links li{
+    display: block;
+    display: inline;
+    color: White;
+    padding-inline-end: 4rem;
+}
+
+.links a{
+    text-decoration: none;
+    color: White;
+    font-size: 1.5em;
+    font-family: "Heebo", sans-serif;
+}
+
+.links li{
+    text-decoration: none;   
+}
+
+.links a:hover{
+    color: #000;
+    font-weight: bold;
+
+}
+.SiteName h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom:0px;
+
+}
+.SiteName p{
+    margin-top: 0px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+    font-size: 1em
+}
+footer{
+    background-color: #6e2222;
+    color : white;
+    padding: 1rem;
+}
+.FooterLinks{
+    margin-left: 2rem;
+}
+.FooterLinks a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    display: block;
+    padding: 0.5em;
+    max-width: 20rem;
+    border-radius: 0.5rem;
+}
+.FooterLinks a:hover{
+    text-decoration: none;
+    background-color: #1f1f1f;
+    font-weight: bolder;
+}
+
+iframe{
+    width: 90vw;
+    height: 75vh;
+}
+
+iframe{
+    width: 100%;
+}

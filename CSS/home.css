@@ -1,0 +1,198 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+    font-family: "Heebo", sans-serif;
+    background-color: #1f1f1f;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #bb3333;
+    width: 100%;
+    align-items: center;
+    opacity: 0.6;
+}
+nav:hover{
+    opacity: 1;
+
+}
+.logo{
+    padding-inline-start: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.links li{
+    display: block;
+    display: inline;
+    color: White;
+    padding-inline-end: 4rem;
+}
+
+.links a{
+    text-decoration: none;
+    color: White;
+    font-size: 1.5em;
+    font-family: "Heebo", sans-serif;
+}
+
+.links li{
+    text-decoration: none;   
+}
+
+.links a:hover{
+    color: #000;
+    font-weight: bold;
+
+}
+.SiteName h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom:0px;
+
+}
+.SiteName p{
+    margin-top: 0px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+    font-size: 1em
+}
+Video{
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    height: aiyp;
+}
+#content{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    justify-content: center;
+    max-width: 100em;
+    width: 95%;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #1f1f1f;
+    color: #fdfdfd;
+    font-family: "Heebo", sans-serif;;
+}
+.Management{
+    display: flex;
+    justify-content:space-between;
+    padding: 5rem;
+    font-size: 1em;
+    text-align:center;
+}
+.Management h2{
+    text-align: center;
+    font-size: 3em;
+}
+.ManagerWraper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Manager{
+    padding: 2em;
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    
+}
+.Manager img{
+    width: 100%;
+}
+.Manager:hover{
+    background-color: #6e2222;
+    border-radius: 1rem;
+}
+.Manager h3{
+    font-size: 2rem;
+}
+.BusinessPartners{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    font-size: 1em;
+    text-align:center;
+}
+.BusinessPartners h2{
+    text-align: center;
+    font-size: 3em;
+}
+.PartnerWraper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.partner{
+    display: block;
+    padding: 2em;
+    justify-content:space-between;
+}
+.partner img{
+    width: 230px;
+}
+.partner:hover{
+    background-color: #6e2222;
+    border-radius: 1rem;
+}
+
+.Consultants h2{
+    text-align: center;
+    font-size: 3em;
+}
+.Consultants{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    font-size: 1em;
+    text-align:center;
+}
+.ConsultantWraper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Consultant{
+    display: block;
+    padding: 2em;
+    justify-content:space-between;
+}
+.Consultant:hover{
+    background-color: #0b506e;
+    border-radius: 1rem;
+}
+footer{
+    background-color: #6e2222;
+    color : white;
+    padding: 1rem;
+}
+.FooterLinks{
+    margin-left: 2rem;
+}
+.FooterLinks a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    display: block;
+    padding: 0.5em;
+    max-width: 20rem;
+    border-radius: 0.5rem;
+}
+.FooterLinks a:hover{
+    text-decoration: none;
+    background-color: #1f1f1f;
+    font-weight: bolder;
+}
